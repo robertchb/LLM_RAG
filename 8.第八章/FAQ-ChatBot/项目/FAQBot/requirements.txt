@@ -1,0 +1,22 @@
+datasets==2.18.0
+elastic-transport==8.12.0
+elasticsearch
+fastapi==0.110.0
+gevent==24.2.1
+httpx==0.27.0
+huggingface-hub==0.21.4
+loguru==0.7.2
+pandas==2.2.1
+protobuf==4.25.3
+pydantic==2.6.3
+pydantic_core==2.16.3
+pytest==8.1.1
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-dotenv==1.0.1
+python-json-logger @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c3baq2ko4j/croot/python-json-logger_1683823815343/work
+requests
+streamlit
+transformers==4.38.2
+uvicorn==0.28.0
+uvloop==0.19.0
+wandb==0.16.4

@@ -1,0 +1,32 @@
+version: '3' # 使用的 Docker Compose 文件格式版本
+services: # 指定了文件将定义一个或多个服务
+  faq1: # 第一个服务的名称
+    image: faq-chatbot:0.1 # 指定了服务容器使用的镜像名称和标签
+    ports: # 指定了端口映射
+      - "7001:7000" # 指定了容器内部的7000端口映射到宿主机上的7001端口
+    volumes: # 指定数据卷的挂载点
+      - .:/code  # 指定了当前目录（docker-compose.yml 文件所在的目录）被挂载到容器的 /code 目录
+    networks: # 定义了网络配置
+      - elastic # 指定了该服务将连接到名为 elastic 的网络
+
+  faq2:
+    image: faq-chatbot:0.1
+    ports:
+      - "7002:7000"
+    volumes:
+      - .:/code
+    networks:
+      - elastic
+
+  faq3:
+    image: faq-chatbot:0.1
+    ports:
+      - "7003:7000"
+    volumes:
+      - .:/code
+    networks:
+      - elastic
+
+networks: # 定义了网络配置
+  elastic: # 指定了该服务将连接到名为 elastic 的网络
+    external: true

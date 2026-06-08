@@ -1,0 +1,14 @@
+python -m FlagEmbedding.reranker.run \
+--output_dir /root/autodl-tmp/flagembedding/output_reranker_finetuned_model \
+--model_name_or_path /root/autodl-tmp/models/bce-reranker-base_v1 \
+--train_data /root/autodl-tmp/samples/dataset_minedHN.jsonl \
+--learning_rate 6e-5 \
+--fp16 \
+--num_train_epochs 5 \
+--per_device_train_batch_size 1 \
+--gradient_accumulation_steps 4 \
+--dataloader_drop_last True \
+--train_group_size 16 \
+--max_len 512 \
+--weight_decay 0.01 \
+--logging_steps 10

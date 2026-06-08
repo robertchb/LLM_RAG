@@ -1,0 +1,20 @@
+torchrun --nproc_per_node 1 \
+-m FlagEmbedding.BGE_M3.run \
+--output_dir /root/autodl-tmp/flagembedding/output_M3_finetuned_model \
+--model_name_or_path /root/autodl-tmp/models/bge-m3 \
+--train_data /root/autodl-tmp/samples/ \
+--learning_rate 1e-5 \
+--fp16 \
+--num_train_epochs 1 \
+--per_device_train_batch_size 1 \
+--dataloader_drop_last True \
+--normlized True \
+--temperature 0.02 \
+--query_max_len 64 \
+--passage_max_len 256 \
+--train_group_size 2 \
+--negatives_cross_device \
+--logging_steps 10 \
+--same_task_within_batch True \
+--unified_finetuning True \
+--use_self_distill True

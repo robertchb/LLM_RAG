@@ -1,0 +1,8 @@
+模型下载地址：
+
+**bce-embedding-base- v1**
+
+git clone https://huggingface.co/maidalun1020/bce-embedding-base_v1
+
+
+

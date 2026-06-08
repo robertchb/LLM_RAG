@@ -1,0 +1,20 @@
+2024-03-21 21:07:38 | INFO      | __main__:create_index:45 - ------ 医疗索引创建完毕 ------
+2024-03-21 21:18:39 | INFO      | __main__:create_index:45 - ------ 医疗索引创建完毕 ------
+2024-03-21 21:34:19 | INFO      | server:search:26 - 用户输入的文本: 我最近长胖了，这让我有些尴尬，是否可以改善这一状况？
+2024-03-21 21:34:20 | ERROR     | vectorstore.es_match:recall_by_bm25_dr:53 - 搜索失败，抛出异常：Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0xffff792aa190>: Failed to establish a new connection: [Errno 111] Connection refused))
+2024-03-21 21:34:20 | ERROR     | server:search:40 - Error: 404: 没有找到匹配的结果
+2024-03-21 21:40:46 | INFO      | server:search:26 - 用户输入的文本: 我最近长胖了，这让我有些尴尬，是否可以改善这一状况？
+2024-03-21 21:40:46 | ERROR     | vectorstore.es_match:recall_by_bm25_dr:53 - 搜索失败，抛出异常：Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0xffff54540d10>: Failed to establish a new connection: [Errno 111] Connection refused))
+2024-03-21 21:40:46 | ERROR     | server:search:40 - Error: 404: 没有找到匹配的结果
+2024-03-21 21:41:31 | INFO      | server:search:26 - 用户输入的文本: 我最近长胖了，这让我有些尴尬，是否可以改善这一状况？
+2024-03-21 21:41:32 | ERROR     | vectorstore.es_match:recall_by_bm25_dr:53 - 搜索失败，抛出异常：Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0xffff4d590790>: Failed to establish a new connection: [Errno 111] Connection refused))
+2024-03-21 21:41:32 | ERROR     | server:search:40 - Error: 404: 没有找到匹配的结果
+2024-03-21 21:44:13 | INFO      | server:search:26 - 用户输入的文本: 我最近长胖了，这让我有些尴尬，是否可以改善这一状况？
+2024-03-21 21:44:14 | ERROR     | vectorstore.es_match:recall_by_bm25_dr:53 - 搜索失败，抛出异常：Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0xffff7e9b1c50>: Failed to establish a new connection: [Errno 111] Connection refused))
+2024-03-21 21:44:14 | ERROR     | server:search:40 - Error: 404: 没有找到匹配的结果
+2024-03-21 21:45:27 | INFO      | server:search:26 - 用户输入的文本: 我最近长胖了，这让我有些尴尬，是否可以改善这一状况？
+2024-03-21 21:45:28 | ERROR     | vectorstore.es_match:recall_by_bm25_dr:53 - 搜索失败，抛出异常：Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0xffff27b44dd0>: Failed to establish a new connection: [Errno 111] Connection refused))
+2024-03-21 21:45:28 | ERROR     | server:search:40 - Error: 404: 没有找到匹配的结果
+2024-03-21 21:49:12 | INFO      | server:search:26 - 用户输入的文本: 我最近长胖了，这让我有些尴尬，是否可以改善这一状况？
+2024-03-21 21:49:12 | ERROR     | vectorstore.es_match:recall_by_bm25_dr:53 - 搜索失败，抛出异常：Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0xffff24cf9ed0>: Failed to establish a new connection: [Errno 111] Connection refused))
+2024-03-21 21:49:12 | ERROR     | server:search:40 - Error: 404: 没有找到匹配的结果

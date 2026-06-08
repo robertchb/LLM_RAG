@@ -1,0 +1,3 @@
+模型下载链接：
+
+git clone https://huggingface.co/BAAI/bge-large-zh-v1.5

@@ -1,0 +1,16 @@
+2024-03-21 08:24:31 | INFO      | server:search:26 - 用户输入的文本: 我最近长胖了，这让我有些尴尬，是否可以改善这一状况？
+2024-03-21 08:24:32 | ERROR     | vectorstore.es_match:recall_by_bm25_dr:53 - 搜索失败，抛出异常：Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0xffff60486e50>: Failed to establish a new connection: [Errno 111] Connection refused))
+2024-03-21 08:24:32 | ERROR     | server:search:40 - Error: 404: 没有找到匹配的结果
+2024-03-21 08:36:00 | INFO      | __main__:search:26 - 用户输入的文本: 我最近长胖了，这让我有些尴尬，是否可以改善这一状况？
+2024-03-21 08:36:01 | INFO      | __main__:search:35 - 匹配的回答：问题分析：根据你提供的情况，应该是比较肥胖的情况，可能是因为你的饮食结构不合理，平时锻炼少造成的。意见建议：建议你调整饮食结构，吃粗粮，蔬菜，水果，坚持进行一定强度的体育锻炼，或者是去健身房，进行减肥，就可以变小，主要是控制饮食，体育锻炼
+2024-03-21 08:36:41 | INFO      | __main__:search:26 - 用户输入的文本: 我最近长胖了，这让我有些尴尬，是否可以改善这一状况？
+2024-03-21 08:36:41 | INFO      | __main__:search:35 - 匹配的回答：问题分析：根据你提供的情况，应该是比较肥胖的情况，可能是因为你的饮食结构不合理，平时锻炼少造成的。意见建议：建议你调整饮食结构，吃粗粮，蔬菜，水果，坚持进行一定强度的体育锻炼，或者是去健身房，进行减肥，就可以变小，主要是控制饮食，体育锻炼
+2024-03-21 08:38:10 | INFO      | server:search:26 - 用户输入的文本: 我最近长胖了，这让我有些尴尬，是否可以改善这一状况？
+2024-03-21 08:38:11 | ERROR     | vectorstore.es_match:recall_by_bm25_dr:53 - 搜索失败，抛出异常：Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0xffff5bc597d0>: Failed to establish a new connection: [Errno 111] Connection refused))
+2024-03-21 08:38:11 | ERROR     | server:search:40 - Error: 404: 没有找到匹配的结果
+2024-03-21 08:51:12 | INFO      | server:search:26 - 用户输入的文本: 我最近长胖了，这让我有些尴尬，是否可以改善这一状况？
+2024-03-21 08:51:12 | ERROR     | vectorstore.es_match:recall_by_bm25_dr:53 - 搜索失败，抛出异常：Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0xffff5b271090>: Failed to establish a new connection: [Errno 111] Connection refused))
+2024-03-21 08:51:12 | ERROR     | server:search:40 - Error: 404: 没有找到匹配的结果
+2024-03-21 08:51:29 | INFO      | server:search:26 - 用户输入的文本: 我最近长胖了，这让我有些尴尬，是否可以改善这一状况？
+2024-03-21 08:51:30 | ERROR     | vectorstore.es_match:recall_by_bm25_dr:53 - 搜索失败，抛出异常：Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0xffff442d0150>: Failed to establish a new connection: [Errno 111] Connection refused))
+2024-03-21 08:51:30 | ERROR     | server:search:40 - Error: 404: 没有找到匹配的结果

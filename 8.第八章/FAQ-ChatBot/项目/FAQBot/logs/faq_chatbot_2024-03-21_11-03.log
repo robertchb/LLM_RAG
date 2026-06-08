@@ -1,0 +1,3 @@
+2024-03-21 11:25:27 | INFO      | server:search:26 - 用户输入的文本: 我最近长胖了，这让我有些尴尬，是否可以改善这一状况？
+2024-03-21 11:25:40 | ERROR     | vectorstore.es_match:recall_by_bm25_dr:53 - 搜索失败，抛出异常：Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0xffff7407ced0>: Failed to establish a new connection: [Errno 113] No route to host))
+2024-03-21 11:25:40 | ERROR     | server:search:40 - Error: 404: 没有找到匹配的结果
